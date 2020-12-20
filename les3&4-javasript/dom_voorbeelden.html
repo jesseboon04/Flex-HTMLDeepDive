@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dome voorbeeld</title>
+    <link rel="stylesheet" href="opmaakdom.css">
+    <script> 
+         function haalElementenOp(){
+            let fotoslider = document.getElementById("fotoslider");
+            console.log(fotoslider)
+
+            let eersteFotoDiv = document.querySelector('.foto');
+            console.log(eersteFotoDiv); 
+
+            let alleFotoDivs = document.querySelectorAll('.foto');
+            console.log(alleFotoDivs);
+            
+            for (let i = 0; i < NodeList.length; i++) {
+            let item = myNodeList[i];
+         }
+        
+
+        
+        }
+      
+      
+        window.addEventListener('DOMContentLoaded', haalElementenOp) 
+
+
+    </script>
+    
+</head>
+<body>
+    <div id="fotoslider">
+        <div class="foto1"><img src="images/foto1.jpg"  /></div>
+        <div class="foto2"><img src="images/foto2.jpg"  /></div>
+        <div class="foto3"><img src="images/foto3.jpg" /></div>
+    </div>
+</body>
+</html>
